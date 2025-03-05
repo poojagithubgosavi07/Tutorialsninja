@@ -29,7 +29,7 @@ public class MyListeners implements ITestListener {
 		try {
 			extentReport = ExtentReporter.generateExtentReport();
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block added for git push comment
+			// TODO Auto-generated catch block added for git push
 			e.printStackTrace();
 		}
 	}
